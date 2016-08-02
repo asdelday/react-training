@@ -1,0 +1,14 @@
+{
+  "name": "react-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}

@@ -1,0 +1,39 @@
+.Navigation {
+  position: relative;
+  background-color: #222222;
+  color: #DDD;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+.Navigation__logo {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.Navigation > li {
+  position: relative;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.Navigation > li:hover, .Navigation > li.active {
+  color: #FFF;
+}
+
+.Navigation > li.active {
+  background-color: #333333;
+}
+
+.Navigation > li.active:before {
+  content: '';
+  position: absolute;
+  background-color: #CC7A6F;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
